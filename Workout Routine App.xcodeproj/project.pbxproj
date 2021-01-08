@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		DFAFF64A25A7ED1000163ACC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAFF64925A7ED1000163ACC /* Preview Assets.xcassets */; };
 		DFAFF65525A7ED1000163ACC /* Workout_Routine_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF65425A7ED1000163ACC /* Workout_Routine_AppTests.swift */; };
 		DFAFF66025A7ED1000163ACC /* Workout_Routine_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF65F25A7ED1000163ACC /* Workout_Routine_AppUITests.swift */; };
+		DFAFF67325A82E3A00163ACC /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = DFAFF67225A82E3A00163ACC /* ElegantCalendar */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFAFF67325A82E3A00163ACC /* ElegantCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = "Workout Routine App";
+			packageProductDependencies = (
+				DFAFF67225A82E3A00163ACC /* ElegantCalendar */,
+			);
 			productName = "Workout Routine App";
 			productReference = DFAFF63F25A7ED0E00163ACC /* Workout Routine App.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = DFAFF63625A7ED0E00163ACC;
+			packageReferences = (
+				DFAFF67125A82E3A00163ACC /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
 			productRefGroup = DFAFF64025A7ED0E00163ACC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -574,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFAFF67125A82E3A00163ACC /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFAFF67225A82E3A00163ACC /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFAFF67125A82E3A00163ACC /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DFAFF63725A7ED0E00163ACC /* Project object */;
 }
