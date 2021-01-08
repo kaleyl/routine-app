@@ -18,7 +18,6 @@ struct ContentView: View {
 
     var body: some View {
         ElegantCalendarView(calendarManager: calendarManager)
-        
     }
 }
 
