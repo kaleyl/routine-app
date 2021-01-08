@@ -15,7 +15,7 @@ struct ContentView: View {
     
     @ObservedObject var calendarManager = ElegantCalendarManager(
         configuration: CalendarConfiguration(startDate: startDate, endDate: endDate))
-    
+
     var body: some View {
         ElegantCalendarView(calendarManager: calendarManager)
         

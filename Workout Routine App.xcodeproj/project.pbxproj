@@ -14,6 +14,7 @@
 		DFAFF65525A7ED1000163ACC /* Workout_Routine_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF65425A7ED1000163ACC /* Workout_Routine_AppTests.swift */; };
 		DFAFF66025A7ED1000163ACC /* Workout_Routine_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFF65F25A7ED1000163ACC /* Workout_Routine_AppUITests.swift */; };
 		DFAFF67325A82E3A00163ACC /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = DFAFF67225A82E3A00163ACC /* ElegantCalendar */; };
+		DFAFF67825A835C700163ACC /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAFF67725A835C700163ACC /* ElegantCalendar.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DFAFF65B25A7ED1000163ACC /* Workout Routine AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout Routine AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFAFF65F25A7ED1000163ACC /* Workout_Routine_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_Routine_AppUITests.swift; sourceTree = "<group>"; };
 		DFAFF66125A7ED1000163ACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAFF67725A835C700163ACC /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ElegantCalendar.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		DFAFF63625A7ED0E00163ACC = {
 			isa = PBXGroup;
 			children = (
+				DFAFF67725A835C700163ACC /* ElegantCalendar.xcassets */,
 				DFAFF64125A7ED0E00163ACC /* Workout Routine App */,
 				DFAFF65325A7ED1000163ACC /* Workout Routine AppTests */,
 				DFAFF65E25A7ED1000163ACC /* Workout Routine AppUITests */,
@@ -243,6 +246,7 @@
 			files = (
 				DFAFF64A25A7ED1000163ACC /* Preview Assets.xcassets in Resources */,
 				DFAFF64725A7ED1000163ACC /* Assets.xcassets in Resources */,
+				DFAFF67825A835C700163ACC /* ElegantCalendar.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
